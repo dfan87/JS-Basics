@@ -1,7 +1,5 @@
-const container = document.querySelector('#head');
-
-const content = document.createElement('p');
-content.classList.add('content');
-content.textContent = "Hey I'm Red!";
-
-container.appendChild(content);
+const body = document.body
+const p = document.createElement("p")
+p.textContent = "Hey I'm red!"
+p.style.color = "red"
+body.append(p)
